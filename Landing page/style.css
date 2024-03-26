@@ -1,0 +1,105 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 63%;
+}
+
+section{
+    padding:5rem 10%;
+}
+.header{
+    position: fixed;
+    top: 0; left: 0;right: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2%;
+    z-index:2;
+    
+}
+
+.header .logo img{
+    height: 14rem;
+    border-radius: 20%;
+}
+.header .navbar #close{
+    display: none;
+}
+
+
+.header .navbar a{
+    font-size: 2rem;
+    margin-right: 2rem;
+    color:yellow;
+
+}
+.header .navbar a:hover{
+    color:whitesmoke;
+}
+.header #menu{
+    display:none;
+}
+.home{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items:center;
+    justify-content: center;
+    background: brown;
+
+}
+.home .content{
+    flex: 1 1 40rem;
+}
+.home .content .title{
+    font-size: 6rem;
+    color:#ffff;
+    text-transform: uppercase;
+}
+.home .content .title span{
+   text-transform: uppercase;color:yellow ;
+}
+.home .content .description{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color:#ffff;
+}
+.home .content  .tech{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.9rem;
+    color: brown;
+    background:yellow;
+    cursor:pointer;
+}
+.home .content  .tech:hover{
+    letter-spacing:.2rem;
+}
+
+.home .image{
+    flex: 1 1 40rem;
+}
+.home .image img{
+    width: 100%;
+}
+.sr{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+   left: 130px;
+   bottom: 50px;
+   height: -52px;
+   padding-bottom:-25%;
+}
